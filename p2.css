@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+.nameTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+  color: #444444;
+  padding: 20px;
+}
+
+.photo {
+  text-align: center;
+}
+
+.singleLink {
+  background-color: #cccccc;
+  color: #555555;
+  line-height: 1.5em;
+  font-size: .75em;
+  margin-left: 50px;
+}
+
+.section {
+  font-size: 2.5em;
+  color: #444444;
+  background-color: #cccccc;
+  padding: 15px;
+  font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.answer {
+  font-size: 0.5em;
+  font-weight: normal;
+  color: #555555;
+}
