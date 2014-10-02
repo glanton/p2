@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 
-.nameTitle {
+.title {
   font-weight: bold;
   text-align: center;
   font-size: 4em;
@@ -10,30 +10,43 @@ body {
   padding: 20px;
 }
 
-.photo {
-  text-align: center;
-}
-
-.singleLink {
-  background-color: #cccccc;
-  color: #555555;
-  line-height: 1.5em;
-  font-size: .75em;
-  margin-left: 50px;
-}
-
-.section {
-  font-size: 2.5em;
-  color: #444444;
-  background-color: #cccccc;
-  padding: 15px;
-  font-weight: bold;
-  width: 70%;
+.content {
+  width: 1020px;
+  height: 900px;
   margin: 0 auto;
 }
 
-.answer {
-  font-size: 0.5em;
-  font-weight: normal;
-  color: #555555;
+.section {
+  display: block;
+  float: left;
+  margin: 5px;
+}
+
+.topLeft {
+  font-size: 1.5em;
+  height: 500px;
+  width: 500px;
+}
+
+.topRight {
+  text-align: center;
+  height: 500px;
+  width: 500px;
+}
+
+.topRight img {
+  height: 400px;
+  width: auto;
+}
+
+.bot {
+  text-align: center;
+  font-size: 3em;
+  padding: 10px 0;
+  width: 1010px;
+}
+
+.submitted {
+  background-color: #0066ff;
+  color: white;
 }
