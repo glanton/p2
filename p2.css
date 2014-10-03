@@ -10,6 +10,7 @@ input[type="number"] {
 input[type="checkbox"] {
   height: 2em;
   width: 2em;
+  margin-left: 30px;
 }
 
 input[type="submit"] {
@@ -20,7 +21,13 @@ input[type="submit"] {
   border: none;
   padding: 10px 50px;
   display: block;
-  margin: 0 auto;
+  margin: 2em auto 0 auto;
+}
+
+label {
+  display: block;
+  float: right;
+  width: 420px;
 }
 
 .title {
@@ -32,7 +39,7 @@ input[type="submit"] {
 }
 
 .content {
-  width: 1020px;
+  width: 1060px;
   height: 900px;
   margin: 0 auto;
 }
@@ -40,18 +47,27 @@ input[type="submit"] {
 .section {
   display: block;
   float: left;
-  margin: 5px;
+  margin: 15px;
 }
 
 .topLeft {
   font-size: 1.5em;
-  height: 450px;
+  height: 430px;
   width: 500px;
+}
+
+.question {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.double {
+  height: 2em;
 }
 
 .topRight {
   text-align: center;
-  height: 450px;
+  height: 430px;
   width: 500px;
 }
 
@@ -64,10 +80,11 @@ input[type="submit"] {
   text-align: center;
   font-size: 3em;
   padding: 10px 0;
-  width: 1010px;
+  width: 1020px;
 }
 
 .submitted {
   background-color: #0066ff;
   color: white;
+  border-radius: 5px;
 }
