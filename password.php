@@ -1,6 +1,6 @@
 <?php
   // Okay, so I just picked these words because I liked them. Not the most secure solution once you realize there are only 52 words, but for the sake of the exercise I like the combinations these make.
-  $wordList = array("Aardvark", "Adventure", "Bowl", "Brighton", "Candid", "Cobbler", "Deep", "Dune", "Empty", "Ernie", "Fanta", "Fate", "Gandalf", "Growing", "Hammock", "Hotel", "Iridium", "Iron", "Jasmine", "Joyce", "Known", "Knit", "Leopard", "Lightbulb", "Moor", "Mother", "Night", "Norse", "Oblong", "Orange", "Pasture", "Pillow", "Quality", "Quatrain", "Ransom", "Rice", "Shoelace", "Sleepy", "Tapestry", "Train", "Underground", "Urn", "Varnish", "Violet", "Window", "Whisky", "Xander", "Xylophone", "Yellow", "Yonder", "Zambia", "Zorro");
+  $wordList = array("Aardvark", "Adventure", "Bassoon", "Brighton", "Candid", "Cobbler", "Deep", "Dune", "Empty", "Ernie", "Fanta", "Fatal", "Gandalf", "Growing", "Hammock", "Hotel", "Iridium", "Iron", "Jasmine", "Joyce", "Known", "Knit", "Leopard", "Lightbulb", "Moor", "Mother", "Night", "Norse", "Oblong", "Orange", "Pasture", "Pillow", "Quality", "Quatrain", "Ransom", "Rice", "Shoelace", "Sleepy", "Tapestry", "Train", "Underground", "Urn", "Varnish", "Violet", "Window", "Whisky", "Xenomorph", "Xylophone", "Yellow", "Yonder", "Zambia", "Zorro");
   
   $specialCharList = array ("!", "@", "#", "$", "%", "^", "&", "*");
   
