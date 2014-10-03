@@ -4,6 +4,7 @@
   
   $specialCharList = array ("!", "@", "#", "$", "%", "^", "&", "*");
   
+  // only create password if GET array is not empty
   if (!empty($_GET)) {
     $submitted = "submitted";
     $password = "";

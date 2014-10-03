@@ -34,9 +34,13 @@
         
         <input id="submit" name="submit" type="submit" value="Make Password">
       </form>
-    
     </div>
-    <div class="section topRight"><a target="_blank" href="http://xkcd.com/936/"><img src="xkcd.png" alt="xkcd comic on password strength"></a></div>
+    
+    <div class="section topRight">
+      <a target="_blank" href="http://xkcd.com/936/">
+        <img src="xkcd.png" alt="xkcd comic on password strength">
+      </a>
+    </div>
 
     <div class="section bot <?php echo $submitted; ?>"><?php echo $password; ?></div>
   </div>
