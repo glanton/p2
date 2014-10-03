@@ -2,6 +2,27 @@ body {
   font-family: sans-serif;
 }
 
+input[type="number"] {
+  font-size: 0.8em;
+  tex-align: center;
+}
+
+input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+input[type="submit"] {
+  background-color: #bbbbbb;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 50px;
+  display: block;
+  margin: 0 auto;
+}
+
 .title {
   font-weight: bold;
   text-align: center;
@@ -24,13 +45,13 @@ body {
 
 .topLeft {
   font-size: 1.5em;
-  height: 500px;
+  height: 450px;
   width: 500px;
 }
 
 .topRight {
   text-align: center;
-  height: 500px;
+  height: 450px;
   width: 500px;
 }
 

@@ -12,20 +12,11 @@
     <div class="section topLeft">So, you need a new password. You're in the right place, and with a little inspiration from <a target="_blank" href="http://xkcd.com/936/">the webcomic xkcd</a>, it will not only be strong, but you'll also remember it. To get there we need to ask you some questions:<br><br>
     
     <form action="index.php" method="GET">
-        <label for="wordCount">How many words would you like your password to contain?</label><br>
-        <input id="wordCount" name="wordCount"type="number"  min="1" max="5"><br><br>
+        <input id="wordCount" name="wordCount"type="number"  min="1" max="5" required><label for="wordCount"> How many words would you like your password to contain?</label><br><br>
         
-        <label for="numberInclude">Include a number?</label><br>
-        <input id="numberIncludeYes" name="numberInclude"type="radio" value="Yes">
-        <label for="numberIncludeYes">Yes</label>
-        <input id="numberIncludeNo" name="numberInclude"type="radio" value="No">
-        <label for="numberIncludeNo">No</label><br><br>
+        <input type="checkbox" id="includeNumber" name="includeNumber" value="true"> Include a number?<br><br>
         
-        <label for="specialCharInclude">Include a special character?</label><br>
-        <input id="specialCharIncludeYes" name="specialCharInclude"type="radio" value="Yes">
-        <label for="specialCharIncludeYes">Yes</label>
-        <input id="specialCharIncludeNo" name="specialCharInclude"type="radio" value="No">
-        <label for="specialCharIncludeNo">No</label><br><br>
+        <input type="checkbox" id="includeSpecialChar" name="includeSpecialChar" value="true"> Include a special character?<br><br>
         
         <input id="submit" name="submit" type="submit" value="Make Password">
       </form>
