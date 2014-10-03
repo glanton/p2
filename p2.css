@@ -21,7 +21,7 @@ input[type="submit"] {
   border: none;
   padding: 10px 50px;
   display: block;
-  margin: 2em auto 0 auto;
+  margin: 1.5em auto 0 auto;
 }
 
 label {
@@ -52,7 +52,7 @@ label {
 
 .topLeft {
   font-size: 1.5em;
-  height: 430px;
+  height: 440px;
   width: 500px;
 }
 
@@ -67,7 +67,7 @@ label {
 
 .topRight {
   text-align: center;
-  height: 430px;
+  height: 440px;
   width: 500px;
 }
 

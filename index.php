@@ -27,6 +27,11 @@
           <label for="includeSpecialChar">Include a special character?</label>
         </div>
         
+        <div class="question">
+          <input type="checkbox" id="useCamelCase" name="useCamelCase" value="true">
+          <label for="useCamelCase">Use CamelCase?</label>
+        </div>
+        
         <input id="submit" name="submit" type="submit" value="Make Password">
       </form>
     
