@@ -13,7 +13,7 @@
     
     <form action="index.php" method="GET">
         <div class="question double">
-          <input id="wordCount" name="wordCount"type="number"  min="1" max="5" required>
+          <input id="wordCount" name="wordCount" type="number" min="1" max="5" required>
           <label for="wordCount">How many words would you like your new password to contain?</label>
         </div>
         
