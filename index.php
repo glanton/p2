@@ -13,22 +13,22 @@
     
     <form action="index.php" method="GET">
         <div class="question double">
-          <input id="wordCount" name="wordCount" type="number" min="1" max="5" required>
+          <input id="wordCount" name="wordCount" type="number" min="1" max="5" value="<?php echo $wordCount; ?>" required>
           <label for="wordCount">How many words would you like your new password to contain?</label>
         </div>
         
         <div class="question">
-          <input type="checkbox" id="includeNumber" name="includeNumber" value="true">
+          <input type="checkbox" id="includeNumber" name="includeNumber" value="true" <?php echo $includeNumber; ?>>
           <label for="includeNumber">Include a number?</label>
         </div>
         
         <div class="question">
-          <input type="checkbox" id="includeSpecialChar" name="includeSpecialChar" value="true">
+          <input type="checkbox" id="includeSpecialChar" name="includeSpecialChar" value="true" <?php echo $includeSpecialChar; ?>>
           <label for="includeSpecialChar">Include a special character?</label>
         </div>
         
         <div class="question">
-          <input type="checkbox" id="useCamelCase" name="useCamelCase" value="true">
+          <input type="checkbox" id="useCamelCase" name="useCamelCase" value="true" <?php echo $useCamelCase; ?>>
           <label for="useCamelCase">Use CamelCase?</label>
         </div>
         
